@@ -14,4 +14,8 @@ export class CourseCardComponent {
   constructor() { }
 
   ngOnInit() { }
+
+  onCourseViewed() {
+    console.log("card component clicked")
+  }
 }
